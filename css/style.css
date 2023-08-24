@@ -201,7 +201,7 @@ body {
 .maps .row {
     display: flex;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     flex-wrap: wrap;
 }
 
@@ -215,18 +215,18 @@ body {
 
 .maps .row .peta {
     flex: 1 1 45rem;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 2%;
 }
 
-.maps .row .cuaca p {
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
+.cuaca {
+    padding: 8rem 7% 1.4rem;
 }
 
-.maps .row .cuaca .weather {
-    border-radius: 3%;
+.cuaca .row .infoCuaca {
+    flex: 1 1 45rem;
+    width: 100%;
+    border-radius: 2%;
 }
 
 
